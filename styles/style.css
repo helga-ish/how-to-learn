@@ -109,6 +109,55 @@
   font-weight: 600;
 }
 
+.digits {
+
+}
+.section-title {
+  margin: auto;
+  text-align: center;
+  width: 60%;
+  line-height: 1.15;
+  font-size: 60px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.section-subtitle {
+  margin: auto;
+  text-align: center;
+  width: 60%;
+  margin-bottom: 0;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+}
+.table {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 1100px;
+  margin: auto;
+}
+ul {
+  list-style: none;
+}
+.table__cell {
+  width: 250px;
+  margin-top: 60px;
+  margin-bottom: 0;
+}
+
+.table__heading {
+  margin-top: 0;
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: 600;
+}
+.table__text {
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+}
+
 /* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
   width: 200px;
@@ -116,4 +165,3 @@
   margin-right: 0;
   margin-top: 80px;
 }
-
