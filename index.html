@@ -7,13 +7,13 @@
   <link rel="stylesheet" href="./styles/normalize.css">
   <link rel="stylesheet" href="./styles/style.css">
 </head>
-<body>
-  <div class="page">
-
+<body class="page">
     <header class="header">
-      <div class="logo"><img src="./images/logo_place_header.svg" alt="Логотип Яндекс.Практикума" class="logo_place_header"></div>
-      <div class="header__title">Научиться учиться</div>
-      <div class="header__subtitle">Какие современные и эффективные подходы к обучению вы можете использовать в своей жизни? <a class="header__link" href="#">Узнать →</a></div>
+      <img src="./images/logo_place_header.svg" alt="Логотип Яндекс.Практикума" class="logo logo_place_header">
+      <h1 class="header__title">Научиться учиться</h1>
+      <h2 class="header__subtitle">
+        Какие современные и эффективные подходы к обучению вы можете использовать в своей жизни? <a href="#" class="header__link">Узнать →</a>
+      </h2>
       <img src="images/header-image.png" alt="Картина Опять Двойка" class="header__main-illustration">
       <div class="header__square-pic"></div>
     </header>
@@ -73,7 +73,6 @@
       </section>
 
       <section class="feynman">
-        <img src="./images/feynman.png" alt="Портрет Феймана, черно-белый" class="feynman__img">
         <h1 class="feynman__title">Метод Фейнмана</h1>
         <h2 class="feynman__subtitle">Выучить и не забыть.</h2>
         <a href="#" class="feynman__link">Подробнее →</a>
@@ -129,36 +128,29 @@
 
     </main>
 
-  </div>
-
   <footer class="footer">
     <div class="footer__columns">
       <div class="footer__column_content_copyright">
-        <div class="logo"><img src="./images/logo_place_footer.svg" alt="Логотип Яндекс.Практикума" class="logo_place_footer"></div>
-        <div class="footer__author">&copy; Ольга Евтюнина</div>
+        <img src="./images/logo_place_footer.svg" alt="Логотип Яндекс.Практикума" class="logo logo_place_footer">
+        <p class="footer__author">&copy; Ольга Евтюнина</p>
       </div>
       <div class="footer__column_content_info">
         <h1 class="footer__column-heading">О Практикуме</h1>
-        <div class="footer__column-links">
+        <nav class="footer__column-links">
           <a href="#" class="footer__column-link">Главная</a>
           <a href="#" class="footer__column-link">Концепция</a>
           <a href="#" class="footer__column-link">Наставники</a>
-        </div>
+        </nav>
       </div>
       <div class="footer__column_content_social">
         <h1 class="footer__column-heading">Соцсети</h1>
-        <a href="#" class="footer__column-link">
-          <img src="./images/youtube-icon.svg" alt="иконка Ютуба" class="footer__social-icon">Youtube
-        </a>
-        <a href="#" class="footer__column-link">
-          <img src="./images/vk_color_white.svg" alt="иконка ВКонтакте" class="footer__social-icon">ВКонтакте
-        </a>
-        <a href="#" class="footer__column-link">
-          <img src="./images/tiktok-icon.svg" alt="иконка ТикТока" class="footer__social-icon">TikTok
-        </a>
+        <nav class="footer__column-links">
+          <a href="#" class="footer__column-link"><img src="./images/youtube-icon.svg" alt="иконка Ютуба" class="footer__social-icon">Youtube</a>
+          <a href="#" class="footer__column-link"><img src="./images/vk_color_white.svg" alt="иконка ВКонтакте" class="footer__social-icon">ВКонтакте</a>
+          <a href="#" class="footer__column-link"><img src="./images/tiktok-icon.svg" alt="иконка ТикТока" class="footer__social-icon">TikTok</a>
+        </nav>
       </div>
     </div>
   </footer>
-
 </body>
 </html>
