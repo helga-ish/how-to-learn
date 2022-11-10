@@ -196,6 +196,12 @@
   margin-bottom: 0;
 }
 
+/* стили для оакли */
+.oakley {
+  padding-top: 160px;
+  background-color: #f2f2f2;
+}
+
 /* стили для секции Фейнмана */
 .feynman {
   padding-top: 100px;
@@ -243,7 +249,6 @@
 }
 
 
-
 /* стили для секции Кауфмана */
 .kaufman {
   position: relative;
@@ -267,10 +272,12 @@
 
 .section-title_theme_dark {
   color: white;
+  position: relative
 }
 
 .section-subtitle_theme_dark {
   color:white;
+  position: relative
 }
 
 .table_theme_dark {
@@ -284,6 +291,33 @@
   margin-right: 0;
   margin-left: 0;
   margin-top: 80px;
+}
+
+/* стили для ресурсов */
+.resources {
+  padding-top: 100px;
+  padding-bottom: 217px;
+}
+
+.resources__logo-zone {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 1100px;
+  margin: 80px auto 0 auto;
+  /* padding-left: 0; */
+}
+
+.resources__link {
+  width: 270px;
+  height: 38px;
+}
+
+.resources__logo {
+  width: 270px;
+  height: 38px;
+  margin: 0;
+  padding: 0;
 }
 
 /* стили для footer */
@@ -328,7 +362,6 @@
   color: white;
   margin: 20px 0 16px;
 }
-
 
 .footer__column-link {
   line-height: 30px;
