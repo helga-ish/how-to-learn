@@ -1,3 +1,9 @@
+@keyframes rotation {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
   .page {
   min-width: 1100px;
   max-width: 1600px;
@@ -23,6 +29,7 @@
   min-height: 600px;
   max-height: 756px;
   background-color: #f2f2f2;
+  overflow: hidden;
 
 }
 
@@ -51,6 +58,11 @@
 .header__link {
   color: #2f80ed;
   text-decoration: none;
+  opacity: 1;
+  transition: opacity 0.6s ease;
+}
+.header__link:hover {
+  opacity: 0.7;
 }
 
 .header__main-illustration {
@@ -70,6 +82,12 @@
   height: 568px;
   background-color: #2f80ed;
 }
+
+.rotation {
+  animation: rotation 20s linear infinite;
+}
+
+
 
 .logo_place_header {
   position: absolute;
@@ -217,7 +235,13 @@
   font-weight: normal;
   text-decoration: none;
   color: #2f80ed;
+  opacity: 1;
+  transition: opacity 0.6s ease;
 }
+.feynman__link:hover {
+  opacity: 0.7;
+}
+
 
 
 /* стили для секции Кауфмана */
@@ -227,6 +251,7 @@
   background-color: #1f1f1f;
   padding-top: 90px;
   padding-bottom: 90px;
+  overflow: hidden;
 }
 
 .kaufman__triangle {
@@ -302,8 +327,13 @@
   justify-content: space-between;
   color: white;
   margin: 20px 0 16px;
-
+  opacity: 1;
+  transition: opacity 0.6s ease;
 }
+.footer__column-links:hover {
+  opacity: 0.7;
+}
+
 
 .footer__column-link {
   line-height: 30px;
@@ -311,6 +341,11 @@
   font-weight: normal;
   text-decoration: none;
   color: white;
+  opacity: 1;
+  transition: opacity 0.6s ease;
+}
+.footer__column-link:hover {
+  opacity: 0.7;
 }
 
 .footer__social-icon {
