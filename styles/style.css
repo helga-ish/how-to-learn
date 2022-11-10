@@ -196,6 +196,29 @@
   margin-bottom: 0;
 }
 
+/* стили для видео */
+.video {
+  padding-top: 100px;
+  padding-bottom: 0;
+}
+
+.video__iframes {
+  display: flex;
+  justify-content:center;
+  flex-wrap: wrap;
+  margin: 50px auto -60px auto;
+}
+.video__iframe {
+  width: 515px;
+  height: 316px;
+  margin: 0;
+  padding: 0;
+}
+.video__iframe:nth-of-type(1) {
+  margin-right: 20px;
+}
+
+
 /* стили для оакли */
 .oakley {
   padding-top: 160px;
