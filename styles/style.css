@@ -370,22 +370,9 @@
   padding: 0;
   margin: 0;
 }
-/* .khan__book-container {
-  display: flex;
-  padding: 68px 0 0 0;
-  width: 620px;
-  height: 608px;
-}
-
-.khan__book-pic {
-  width: 620px;
-  height: 608px;
-  margin: 0 48px 0 0;
-} */
 
 .khan__book-container {
   display: flex;
-  flex-direction: row;
   padding: 68px 0 0 0;
   overflow: hidden;
 }
@@ -394,8 +381,8 @@
   width: 620px;
   height: 608px;
   object-fit: cover;
+  object-position: top;
   margin: 0 48px 0 0;
-
 }
 
 .khan__buy-link {
